@@ -160,7 +160,6 @@ const CalculadoraOro = ({ ciudad }) => {
             <input
               type="number"
               placeholder="Cantidad"
-              inputMode="numeric"
               onChange={(event) => setValorInput(event.target.value)}
             />
             <span>g</span>
