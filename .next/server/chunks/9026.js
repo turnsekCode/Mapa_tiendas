@@ -554,7 +554,6 @@ const CalculadoraOro = ({ ciudad  })=>{
                                     /*#__PURE__*/ jsx_runtime_.jsx("input", {
                                         type: "number",
                                         placeholder: "Cantidad",
-                                        pattern: "[0-9]*",
                                         inputMode: "numeric",
                                         onChange: (event)=>setValorInput(event.target.value)
                                     }),
@@ -1591,7 +1590,6 @@ const BloquePrecioPlata_CalculadoraOro = ({ ciudad  })=>{
                                     /*#__PURE__*/ jsx_runtime_.jsx("input", {
                                         type: "number",
                                         placeholder: "Cantidad",
-                                        pattern: "[0-9]*",
                                         inputMode: "numeric",
                                         onChange: (event)=>setValorInput(event.target.value)
                                     }),
