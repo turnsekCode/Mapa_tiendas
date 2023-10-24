@@ -175,7 +175,7 @@ const CalculadoraOro = ({ ciudad }) => {
         className={styles.botonLlamarTienda}
         href={`tel:${ciudad?.acf?.telefono}`}
       >
-        LLAMAR A LA TIENDA
+        LLAMA GRATIS
       </a>
     </div>
   );

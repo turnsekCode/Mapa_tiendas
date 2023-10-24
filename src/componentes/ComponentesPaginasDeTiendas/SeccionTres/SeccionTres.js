@@ -21,14 +21,14 @@ const SeccionTres = ({ tiendaGoogle, ciudad }) => {
           </p>
 
           <div className={styles.iconosTelefono}>
-            <a title="Llamar a fijo" href={`tel:${ciudad?.acf?.telefono}`}>
+            <a title={`Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`} href={`tel:${ciudad?.acf?.telefono}`}>
               <span className={styles.bloqueIzqTel}>
                 {ciudad?.acf?.telefono}
               </span>
             </a>
             <div className={styles.contenedorIconos}>
               <a
-                title="Llamar a fijo"
+                title={`Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`}
                 className={styles.telefonoIcon}
                 href={`tel:${ciudad?.acf?.telefono}`}
               >
@@ -36,7 +36,7 @@ const SeccionTres = ({ tiendaGoogle, ciudad }) => {
                 <span className={styles.bloqueIzqTel}></span>
               </a>
               <a
-                title="Escribir a whatsapp"
+                title="Escribir WhatsApp"
                 className={styles.WhatsAppIcon}
                 target="_blank"
                 href={`https://wa.me/${(ciudad?.acf?.mobile).replace(

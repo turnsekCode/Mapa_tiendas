@@ -246,7 +246,7 @@ function NuevoConversor2({ ciudad, setSelectDivisa, selectDivisa }) {
           href={`tel:${ciudad?.acf?.telefono}`}
           className={styles.botonLlamarTienda}
         >
-          LLAMAR A LA TIENDA
+          LLAMA GRATIS
         </a>
       </div>{" "}
       <p className={styles.bloqueDivisaHabitualTexto}>
