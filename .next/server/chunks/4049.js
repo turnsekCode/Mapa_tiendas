@@ -253,7 +253,7 @@ const SeccionTres = ({ tiendaGoogle , ciudad  })=>{
                                 className: (seccionTres_module_default()).iconosTelefono,
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        "aria-label": "Llamar a fijo",
+                                        title: "Llamar a fijo",
                                         href: `tel:${ciudad?.acf?.telefono}`,
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
                                             className: (seccionTres_module_default()).bloqueIzqTel,
@@ -264,7 +264,7 @@ const SeccionTres = ({ tiendaGoogle , ciudad  })=>{
                                         className: (seccionTres_module_default()).contenedorIconos,
                                         children: [
                                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                                "aria-label": "Llamar a fijo",
+                                                title: "Llamar a fijo",
                                                 className: (seccionTres_module_default()).telefonoIcon,
                                                 href: `tel:${ciudad?.acf?.telefono}`,
                                                 children: [
@@ -275,7 +275,7 @@ const SeccionTres = ({ tiendaGoogle , ciudad  })=>{
                                                 ]
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                "aria-label": "Llamar a whatsapp",
+                                                title: "Escribir a whatsapp",
                                                 className: (seccionTres_module_default()).WhatsAppIcon,
                                                 target: "_blank",
                                                 href: `https://wa.me/${(ciudad?.acf?.mobile).replace(/\s+/g, "")}`,

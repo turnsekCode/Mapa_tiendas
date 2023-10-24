@@ -327,7 +327,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -562,7 +562,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -796,7 +796,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -1030,7 +1030,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -1264,7 +1264,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -1498,7 +1498,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -1732,7 +1732,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -1966,7 +1966,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -2200,7 +2200,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -2434,7 +2434,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -2668,7 +2668,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -2902,7 +2902,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -3136,7 +3136,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -3370,7 +3370,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -3604,7 +3604,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -3838,7 +3838,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -4072,7 +4072,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -4306,7 +4306,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -4540,7 +4540,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -4774,7 +4774,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -5008,7 +5008,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -5242,7 +5242,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -5476,7 +5476,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -5710,7 +5710,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -5944,7 +5944,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -6178,7 +6178,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -6412,7 +6412,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -6646,7 +6646,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -6880,7 +6880,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -7114,7 +7114,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -7348,7 +7348,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -7582,7 +7582,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -7816,7 +7816,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -8050,7 +8050,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -8284,7 +8284,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
@@ -8518,7 +8518,7 @@ var external_react_map_gl_default = /*#__PURE__*/__webpack_require__.n(external_
                     onMove: (evt)=>setViewState(evt.viewState),
                     className: (mapa_module_default()).mapa,
                     mapStyle: "mapbox://styles/mapbox/streets-v9?optimize=true",
-                    mapboxAccessToken: "pk.eyJ1IjoicXVpY2tnb2wiLCJhIjoiY2xhbGNvcHAyMDRyNjNwbWthcm1zMm9nbyJ9.tmZYhqn4Z6U3fcCZH647Zw",
+                    mapboxAccessToken: process.env.NEXT_PUBLIC_MAPA,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(external_react_map_gl_.FullscreenControl, {}),
                         " ",
