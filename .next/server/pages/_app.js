@@ -31,7 +31,7 @@ var external_react_ = __webpack_require__(6689);
 
 
 function App({ Component , pageProps  }) {
-    const gtmId = process.env.NEXT_PUBLIC_GTM || "";
+    const gtmId = "GTM-MBQXFCS" || 0;
     const tagManagerArgs = {
         gtmId
     };

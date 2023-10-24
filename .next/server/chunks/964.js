@@ -539,9 +539,9 @@ const Header = ({ menu_list , sticky , stickyRef  })=>{
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: (header_module_default()).botonLlamar,
                                 children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "tel:900 373 629",
-                                    title: "Tel\xe9fono",
-                                    children: "LLAMA GRATIS AL 900 373 629"
+                                    href: "tel:900373629",
+                                    title: "Llama gratis",
+                                    children: "LLAMA GRATIS"
                                 })
                             })
                         ]
@@ -717,8 +717,8 @@ const Footer = ()=>{
                                     children: "Llama gratis al"
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    title: "Tel\xe9fono",
-                                    href: "te:900 373 629",
+                                    title: "Llamar a Quickgold",
+                                    href: "te:900373629",
                                     children: "900 373 629"
                                 }),
                                 /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
