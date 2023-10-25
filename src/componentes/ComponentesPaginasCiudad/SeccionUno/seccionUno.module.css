@@ -38,7 +38,7 @@
 }
 .textoMenos {
     font-family: 'Gotham Book';
-    font-size: 29px;
+    
 }
 @media (min-width: 610px) {
     .contenedorSeccionUno {
