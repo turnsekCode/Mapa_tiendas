@@ -27,17 +27,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _componentes_BotonesLlamarWT_BotonesLlamar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2911);
 /* harmony import */ var _componentes_BannerWallapop_BannerWallapop__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(3428);
 /* harmony import */ var _componentes_Layout_Layout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(7699);
-/* harmony import */ var _componentes_ComponenteHTML_Html__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(38);
-/* harmony import */ var react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(4009);
-/* harmony import */ var _componentes_ComponentesPaginasCiudad_SeccionUno_SeccionUno__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(6783);
-/* harmony import */ var _componentes_ComponentesPaginasCiudad_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(6817);
-/* harmony import */ var _componentes_BannerGeneral_BannerPromoGeneral__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(7967);
-/* harmony import */ var _componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(2810);
-/* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(547);
-/* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(7319);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__]);
-react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+/* harmony import */ var react_intersection_observer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(4009);
+/* harmony import */ var _componentes_ComponentesPaginasCiudad_SeccionUno_SeccionUno__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(6783);
+/* harmony import */ var _componentes_ComponentesPaginasCiudad_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(6817);
+/* harmony import */ var _componentes_BannerGeneral_BannerPromoGeneral__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(7967);
+/* harmony import */ var _componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(2810);
+/* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(547);
+/* harmony import */ var _mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(7319);
+/* harmony import */ var _componentes_ComponentesPaginasCiudad_seccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(5956);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react_intersection_observer__WEBPACK_IMPORTED_MODULE_8__]);
+react_intersection_observer__WEBPACK_IMPORTED_MODULE_8__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
 
 
@@ -56,7 +56,7 @@ react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__ = (__webpack_async_depe
 
 
 function AlcalaDeHenares({ markers , menu_list , ciudad , general  }) {
-    const { ref: myRef , inView , entry  } = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__.useInView)();
+    const { ref: myRef , inView , entry  } = (0,react_intersection_observer__WEBPACK_IMPORTED_MODULE_8__.useInView)();
     const breadCrumb = {
         "@context": "https://schema.org/",
         "@type": "BreadcrumbList",
@@ -184,33 +184,33 @@ function AlcalaDeHenares({ markers , menu_list , ciudad , general  }) {
                                 raiz: "Quickgold",
                                 tiendas: "Tiendas",
                                 ubicacionActual: ciudad?.acf?.ciudad_landing,
-                                iconoRaiz: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14___default()), {}),
-                                iconoUbiccionActual: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_14___default()), {}),
+                                iconoRaiz: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_13___default()), {}),
+                                iconoUbiccionActual: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((_mui_icons_material_KeyboardArrowRight__WEBPACK_IMPORTED_MODULE_13___default()), {}),
                                 urlNombreCiudad: "https://quickgold.es/tiendas/compro-oro-alcala-de-henares/",
                                 urlNombreTienda: "https://quickgold.es/tiendas/compro-oro-alcala-de-henares/"
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasCiudad_SeccionUno_SeccionUno__WEBPACK_IMPORTED_MODULE_10__/* ["default"] */ .Z, {
+                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasCiudad_SeccionUno_SeccionUno__WEBPACK_IMPORTED_MODULE_9__/* ["default"] */ .Z, {
                                 ciudad: ciudad
                             }),
-                            ciudad?.acf?.activar_banner_en_tiendas_y_ciudad && general?.acf?.activar_promo_general ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_13__/* ["default"] */ .Z, {
+                            ciudad?.acf?.activar_banner_en_tiendas_y_ciudad && general?.acf?.activar_promo_general ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_12__/* ["default"] */ .Z, {
                                 ciudad: ciudad
                             }) : null,
-                            ciudad?.acf?.activar_banner_en_tiendas_y_ciudad == false && general?.acf?.activar_promo_general ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerGeneral_BannerPromoGeneral__WEBPACK_IMPORTED_MODULE_12__/* ["default"] */ .Z, {
+                            ciudad?.acf?.activar_banner_en_tiendas_y_ciudad == false && general?.acf?.activar_promo_general ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerGeneral_BannerPromoGeneral__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
                                 general: general
                             }) : null,
-                            general?.acf?.activar_promo_general == false && ciudad?.acf?.activar_banner_en_tiendas_y_ciudad ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_13__/* ["default"] */ .Z, {
+                            general?.acf?.activar_promo_general == false && ciudad?.acf?.activar_banner_en_tiendas_y_ciudad ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerPromoTiendas_BannerPromoTiendas_js__WEBPACK_IMPORTED_MODULE_12__/* ["default"] */ .Z, {
                                 ciudad: ciudad
                             }) : null,
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                 className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default().contenedorSeccionUnoDos),
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasCiudad_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasCiudad_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_10__/* ["default"] */ .Z, {
                                         ciudad: ciudad
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("article", {
                                         className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default().contenedorMapaVisible),
                                         ref: myRef,
-                                        children: inView ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_15__/* ["default"] */ .Z, {
+                                        children: inView ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_14__/* ["default"] */ .Z, {
                                             markers: markers,
                                             ciudad: ciudad
                                         }) : null
@@ -224,8 +224,9 @@ function AlcalaDeHenares({ markers , menu_list , ciudad , general  }) {
                     }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BotonesLlamarWT_BotonesLlamar__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
                         ciudad: ciudad
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponenteHTML_Html__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
-                        ciudad: ciudad
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasCiudad_seccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_15__/* ["default"] */ .Z, {
+                        ciudad: ciudad,
+                        general: general
                     }),
                     ciudad?.acf?.activar_banner_wallapop ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerWallapop_BannerWallapop__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
                         ciudad: ciudad
@@ -642,7 +643,7 @@ module.exports = import("react-intersection-observer");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [9210,676,1664,964,9026,521], () => (__webpack_exec__(1160)));
+var __webpack_exports__ = __webpack_require__.X(0, [9210,676,1664,964,9026,2884], () => (__webpack_exec__(1160)));
 module.exports = __webpack_exports__;
 
 })();

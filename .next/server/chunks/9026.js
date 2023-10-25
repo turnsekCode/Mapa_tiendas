@@ -2476,14 +2476,11 @@ const BotonesLlamar = ({ ciudad  })=>{
     return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
         className: (_botonesLlamar_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorBotones),
         children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                 className: (_botonesLlamar_module_css__WEBPACK_IMPORTED_MODULE_2___default().botonLlamar),
                 href: `tel:${ciudad?.acf?.telefono}`,
-                children: [
-                    "title=",
-                    `Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`,
-                    "LLAMA GRATIS"
-                ]
+                title: `Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`,
+                children: "LLAMA GRATIS"
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                 title: `Escribir WhatsApp a Quickgold ${ciudad?.acf?.ciudad_landing}`,
@@ -2575,7 +2572,7 @@ const Breadcrumbs = ({ raiz , tiendas , nombreCiudad , nombreTienda , ubicacionA
 
 
 const Html = ({ ciudad  })=>{
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
         className: (_html_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorHtml),
         dangerouslySetInnerHTML: {
             __html: ciudad?.acf?.html

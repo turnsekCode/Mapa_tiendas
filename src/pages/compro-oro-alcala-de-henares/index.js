@@ -6,7 +6,6 @@ import BotonLamarFijo from "@/componentes/BotonLlamarFijo/BotonLamarFijo";
 import BotonesLlamar from "@/componentes/BotonesLlamarWT/BotonesLlamar";
 import BannerWallapop from "@/componentes/BannerWallapop/BannerWallapop";
 import Layout from "@/componentes/Layout/Layout";
-import Html from "@/componentes/ComponenteHTML/Html";
 import { useInView } from "react-intersection-observer";
 import SeccionUno from "@/componentes/ComponentesPaginasCiudad/SeccionUno/SeccionUno";
 import SeccionDos from "@/componentes/ComponentesPaginasCiudad/seccionDos/SeccionDos";
@@ -14,6 +13,7 @@ import BannerPromoGeneral from "@/componentes/BannerGeneral/BannerPromoGeneral";
 import BannerPromoTiendas from "@/componentes/BannerPromoTiendas/BannerPromoTiendas.js";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import Mapa from "@/componentes/MapaCiudades/MapaCiudades.js";
+import SeccionTres from "@/componentes/ComponentesPaginasCiudad/seccionTres/SeccionTres";
 
 export default function AlcalaDeHenares({
   markers,
@@ -146,7 +146,7 @@ export default function AlcalaDeHenares({
         ) : (
           <BotonesLlamar ciudad={ciudad} />
         )}
-        <Html ciudad={ciudad} />
+        <SeccionTres ciudad={ciudad} general={general} />
         {ciudad?.acf?.activar_banner_wallapop ? (
           <BannerWallapop ciudad={ciudad} />
         ) : null}

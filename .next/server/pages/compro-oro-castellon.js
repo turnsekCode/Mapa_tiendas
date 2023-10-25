@@ -27,7 +27,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _componentes_BotonesLlamarWT_BotonesLlamar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2911);
 /* harmony import */ var _componentes_BannerWallapop_BannerWallapop__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(3428);
 /* harmony import */ var _componentes_Layout_Layout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(7699);
-/* harmony import */ var _componentes_ComponenteHTML_Html__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(38);
+/* harmony import */ var _componentes_ComponentesPaginasCiudad_seccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(5956);
 /* harmony import */ var react_intersection_observer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(4009);
 /* harmony import */ var _componentes_ComponentesPaginasCiudad_SeccionUno_SeccionUno__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(6783);
 /* harmony import */ var _componentes_ComponentesPaginasCiudad_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(6817);
@@ -224,8 +224,9 @@ function Castellon({ markers , menu_list , ciudad , general  }) {
                     }) : /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BotonesLlamarWT_BotonesLlamar__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
                         ciudad: ciudad
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponenteHTML_Html__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
-                        ciudad: ciudad
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasCiudad_seccionTres_SeccionTres__WEBPACK_IMPORTED_MODULE_8__/* ["default"] */ .Z, {
+                        ciudad: ciudad,
+                        general: general
                     }),
                     ciudad?.acf?.activar_banner_wallapop ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BannerWallapop_BannerWallapop__WEBPACK_IMPORTED_MODULE_6__/* ["default"] */ .Z, {
                         ciudad: ciudad
@@ -642,7 +643,7 @@ module.exports = import("react-intersection-observer");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [9210,676,1664,964,9026,521], () => (__webpack_exec__(7550)));
+var __webpack_exports__ = __webpack_require__.X(0, [9210,676,1664,964,9026,2884], () => (__webpack_exec__(7550)));
 module.exports = __webpack_exports__;
 
 })();

@@ -6,7 +6,7 @@ import BotonLamarFijo from "@/componentes/BotonLlamarFijo/BotonLamarFijo";
 import BotonesLlamar from "@/componentes/BotonesLlamarWT/BotonesLlamar";
 import BannerWallapop from "@/componentes/BannerWallapop/BannerWallapop";
 import Layout from "@/componentes/Layout/Layout";
-import Html from "@/componentes/ComponenteHTML/Html";
+import SeccionTres from "@/componentes/ComponentesPaginasCiudad/seccionTres/SeccionTres";
 import { useInView } from "react-intersection-observer";
 import SeccionUno from "@/componentes/ComponentesPaginasCiudad/SeccionUno/SeccionUno";
 import SeccionDos from "@/componentes/ComponentesPaginasCiudad/seccionDos/SeccionDos";
@@ -142,7 +142,7 @@ export default function Elche({ markers, menu_list, ciudad, general }) {
         ) : (
           <BotonesLlamar ciudad={ciudad} />
         )}
-        <Html ciudad={ciudad} />
+        <SeccionTres ciudad={ciudad} general={general} />
         {ciudad?.acf?.activar_banner_wallapop ? (
           <BannerWallapop ciudad={ciudad} />
         ) : null}
