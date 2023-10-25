@@ -531,12 +531,12 @@ const CalculadoraOro = ({ ciudad  })=>{
                                                 children: "---"
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                value: precio18k.toFixed(2),
-                                                children: "18K"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("option", {
                                                 value: precio14k.toFixed(2),
                                                 children: "14K"
+                                            }),
+                                            /*#__PURE__*/ jsx_runtime_.jsx("option", {
+                                                value: precio18k.toFixed(2),
+                                                children: "18K"
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("option", {
                                                 value: precio24k.toFixed(2),
@@ -588,6 +588,7 @@ const CalculadoraOro = ({ ciudad  })=>{
                 children: "Promoci\xf3n Online"
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                title: `Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`,
                 className: (conversor_module_default()).botonLlamarTienda,
                 href: `tel:${ciudad?.acf?.telefono}`,
                 children: "LLAMA GRATIS"
@@ -857,6 +858,7 @@ function NuevoConversor2({ ciudad , setSelectDivisa , selectDivisa  }) {
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        title: `Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`,
                         href: `tel:${ciudad?.acf?.telefono}`,
                         className: (estilosConversor_module_default()).botonLlamarTienda,
                         children: "LLAMA GRATIS"
@@ -1190,6 +1192,7 @@ function Vender_NuevoConversor2({ ciudad , setSelectDivisa , selectDivisa  }) {
                         ]
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                        title: `Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`,
                         href: `tel:${ciudad?.acf?.telefono}`,
                         className: (estilosConversor_module_default()).botonLlamarTienda,
                         children: "LLAMA GRATIS"
@@ -1566,16 +1569,16 @@ const BloquePrecioPlata_CalculadoraOro = ({ ciudad  })=>{
                                                 children: "---"
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                value: precio999,
-                                                children: "999"
+                                                value: precio800,
+                                                children: "800"
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("option", {
                                                 value: precio925,
                                                 children: "925"
                                             }),
                                             /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                value: precio800,
-                                                children: "800"
+                                                value: precio999,
+                                                children: "999"
                                             })
                                         ]
                                     })
@@ -2034,6 +2037,7 @@ function Empenos({ ciudad  }) {
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 className: (BloqueInfo_conversor_module_default()).contenedorBotonLlamar,
                 children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                    title: `Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`,
                     className: (BloqueInfo_conversor_module_default()).botonLlamarTienda,
                     href: `tel:${telefono}`,
                     children: "LLAMA GRATIS"

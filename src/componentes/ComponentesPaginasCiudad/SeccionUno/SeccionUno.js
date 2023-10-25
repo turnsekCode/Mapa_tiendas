@@ -13,7 +13,7 @@ const SeccionUno = ({ ciudad }) => {
           {/*ciudad?.acf?.titulo_del_h1*/}
           {/*<span className={styles.linea}>{ciudad?.acf?.ciudad_landing}</span>*/}
           Tiendas Quickgold en {ciudad?.acf?.ciudad_landing}<br/>
-          <span className={styles.textoMenos}>Compro oro. Cambio de divisa. Empeñar Oro.</span>
+          <span className={styles.textoMenos}>Compro oro. Cambio de divisa. Empeñar oro.</span>
         </h1>
       </div>
       {/*<FsLightbox

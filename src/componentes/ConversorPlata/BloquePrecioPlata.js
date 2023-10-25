@@ -150,9 +150,9 @@ const CalculadoraOro = ({ ciudad }) => {
               }}
             >
               <option value={0}>---</option>
-              <option value={precio999}>999</option>
-              <option value={precio925}>925</option>
               <option value={precio800}>800</option>
+              <option value={precio925}>925</option>
+              <option value={precio999}>999</option>
             </select>
           </div>
           <div className={styles.input}>

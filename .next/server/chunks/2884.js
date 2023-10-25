@@ -96,7 +96,7 @@ const SeccionUno = ({ ciudad  })=>{
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
                         className: (_seccionUno_module_css__WEBPACK_IMPORTED_MODULE_2___default().textoMenos),
-                        children: "Compro oro. Cambio de divisa. Empe\xf1ar Oro."
+                        children: "Compro oro. Cambio de divisa. Empe\xf1ar oro."
                     })
                 ]
             })

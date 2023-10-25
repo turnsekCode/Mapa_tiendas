@@ -125,7 +125,9 @@ export default function Empenos({ ciudad }) {
         )}
       </div>
       <div className={styles.contenedorBotonLlamar}>
-        <a className={styles.botonLlamarTienda} href={`tel:${telefono}`}>
+        <a 
+          title={`Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`}
+          className={styles.botonLlamarTienda} href={`tel:${telefono}`}>
           LLAMA GRATIS
         </a>
       </div>

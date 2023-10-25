@@ -244,6 +244,7 @@ function NuevoConversor2({ ciudad, setSelectDivisa, selectDivisa }) {
           ¡LLÁMANOS!
         </p>
         <a
+          title={`Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`}
           href={`tel:${ciudad?.acf?.telefono}`}
           className={styles.botonLlamarTienda}
         >

@@ -139,8 +139,8 @@ const CalculadoraOro = ({ ciudad }) => {
               }}
             >
               <option value={0}>---</option>
-              <option value={precio18k.toFixed(2)}>18K</option>
               <option value={precio14k.toFixed(2)}>14K</option>
+              <option value={precio18k.toFixed(2)}>18K</option>
               <option value={precio24k.toFixed(2)}>24K</option>
             </select>
           </div>
@@ -170,6 +170,7 @@ const CalculadoraOro = ({ ciudad }) => {
       </div>
       <p className={styles.promocion}>Promoción Online</p>
       <a
+        title={`Llamar a Quickgold ${ciudad?.acf?.ciudad_landing}`}
         className={styles.botonLlamarTienda}
         href={`tel:${ciudad?.acf?.telefono}`}
       >
