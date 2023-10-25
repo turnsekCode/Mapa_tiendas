@@ -103,7 +103,7 @@ export default function Home({
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Layout menu_list={menu_list}>
-        <div className={styles.main}>
+        <article className={styles.main}>
           <Breadcrumbs />
           <Section_uno />
           <Section_dos
@@ -146,7 +146,7 @@ export default function Home({
             zaragoza={zaragoza}
             ListadoCiudades={ListadoCiudades}
           />
-        </div>
+        </article>
       </Layout>
     </>
   );

@@ -185,7 +185,7 @@ function Santander({ menu_list , ciudad , tiendaGoogle , general  }) {
                 menu_list: menu_list,
                 ciudad: ciudad,
                 children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
                         className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default().main),
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BreadcrumbsTiendas_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {

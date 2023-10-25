@@ -128,7 +128,7 @@ export default function Sindicat({ menu_list, ciudad, tiendaGoogle, general }) {
       </Head>
       <Script id="livechat">{ciudad?.acf?.script_chat}</Script>
       <Layout menu_list={menu_list} ciudad={ciudad}>
-        <div className={styles.main}>
+        <article className={styles.main}>
           <BreadcrumbsTiendas
             raiz="Quickgold"
             tiendas="Tiendas"
@@ -158,7 +158,7 @@ export default function Sindicat({ menu_list, ciudad, tiendaGoogle, general }) {
             <SeccionDos ciudad={ciudad} />
             <SeccionTres ciudad={ciudad} tiendaGoogle={tiendaGoogle} />
           </div>
-        </div>
+        </article>
 
         {ciudad?.acf?.tienda === "" ? (
           <BotonLamarFijo ciudad={ciudad} />

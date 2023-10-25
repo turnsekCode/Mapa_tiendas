@@ -232,7 +232,7 @@ const SeccionTres = ({ tiendaGoogle , ciudad  })=>{
     const diaSemanaReemplazo = diaSemana?.replace("lunes:", "");
     const diaSabadoReemplazo = diaSabado?.replace("s\xe1bado:", "");
     const diaDomingoReemplazo = diaDomingo?.replace("domingo:", "");
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("article", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("aside", {
         className: (seccionTres_module_default()).contenedorSeccionTres,
         children: [
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {

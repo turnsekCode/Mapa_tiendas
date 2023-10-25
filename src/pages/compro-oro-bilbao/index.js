@@ -105,7 +105,7 @@ export default function Bilbao({ markers, menu_list, ciudad, general }) {
             content="Calle Ercilla, 36. Bilbao, Provincia de Bilbao, 48011"
           />
         </div>
-        <div className={styles.main}>
+        <article className={styles.main}>
           <BreadcrumbsTiendas
             raiz="Quickgold"
             tiendas="Tiendas"
@@ -130,12 +130,12 @@ export default function Bilbao({ markers, menu_list, ciudad, general }) {
           ) : null}
           <div className={styles.contenedorSeccionUnoDos}>
             <SeccionDos ciudad={ciudad} />
-            <article className={styles.contenedorMapaVisible} ref={myRef}>
+            <aside className={styles.contenedorMapaVisible} ref={myRef}>
               {inView ? <Mapa markers={markers} ciudad={ciudad} /> : null}
-            </article>
+            </aside>
             {/*<Mapa markers={markers} />*/}
           </div>
-        </div>
+        </article>
 
         {ciudad?.acf?.tienda === "" ? (
           <BotonLamarFijo ciudad={ciudad} />

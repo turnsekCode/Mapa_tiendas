@@ -78,6 +78,7 @@ function NuevoConversor2({ ciudad, setSelectDivisa, selectDivisa }) {
                   currency.Name !== "DKK" &&
                   currency.Name !== "RUB" &&
                   currency.Name !== "NOK" &&
+                  currency.Name !== "ILS" &&
                   currency.Name !== "SEK"
               )
               .map((data, i) =>

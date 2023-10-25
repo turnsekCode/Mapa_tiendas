@@ -8942,7 +8942,7 @@ function Home({ menu_list , ListadoCiudades , alcaladehenares , alcobendas , alc
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(Layout/* default */.Z, {
                 menu_list: menu_list,
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("article", {
                     className: (Home_module_default()).main,
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(Breadcrumbs_Breadcrumbs, {}),

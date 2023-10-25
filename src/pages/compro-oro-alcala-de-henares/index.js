@@ -110,7 +110,7 @@ export default function AlcalaDeHenares({
             content="Plaza de España, 2 local A8. Alcalá de Henares, Provincia de Madrid, 28805"
           />
         </div>
-        <div className={styles.main}>
+        <article className={styles.main}>
           <BreadcrumbsTiendas
             raiz="Quickgold"
             tiendas="Tiendas"
@@ -135,12 +135,12 @@ export default function AlcalaDeHenares({
           ) : null}
           <div className={styles.contenedorSeccionUnoDos}>
             <SeccionDos ciudad={ciudad} />
-            <article className={styles.contenedorMapaVisible} ref={myRef}>
+            <aside className={styles.contenedorMapaVisible} ref={myRef}>
               {inView ? <Mapa markers={markers} ciudad={ciudad} /> : null}
-            </article>
+            </aside>
             {/*<Mapa markers={markers} />*/}
           </div>
-        </div>
+        </article>
         {ciudad?.acf?.tienda === "" ? (
           <BotonLamarFijo ciudad={ciudad} />
         ) : (

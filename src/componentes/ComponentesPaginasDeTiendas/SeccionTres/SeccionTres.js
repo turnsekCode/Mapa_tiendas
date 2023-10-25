@@ -12,7 +12,7 @@ const SeccionTres = ({ tiendaGoogle, ciudad }) => {
   const diaSabadoReemplazo = diaSabado?.replace("sábado:", "");
   const diaDomingoReemplazo = diaDomingo?.replace("domingo:", "");
   return (
-    <article className={styles.contenedorSeccionTres}>
+    <aside className={styles.contenedorSeccionTres}>
       <section className={styles.contenedorInfoTienda}>
         <div className={styles.bloqueIzqInfoTienda}>
           <p className={styles.bloqueIzqTitulo}>Contacto</p>
@@ -75,7 +75,7 @@ const SeccionTres = ({ tiendaGoogle, ciudad }) => {
       <section className={styles.contenedorResenasGoogle}>
         <ResenasGoogle tiendaGoogle={tiendaGoogle} ciudad={ciudad} />
       </section>
-    </article>
+    </aside>
   );
 };
 

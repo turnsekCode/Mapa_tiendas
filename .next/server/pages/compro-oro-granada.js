@@ -177,7 +177,7 @@ function Granada({ markers , menu_list , ciudad , general  }) {
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
                         className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default().main),
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_BreadcrumbsTiendas_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {
@@ -207,7 +207,7 @@ function Granada({ markers , menu_list , ciudad , general  }) {
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_ComponentesPaginasCiudad_seccionDos_SeccionDos__WEBPACK_IMPORTED_MODULE_11__/* ["default"] */ .Z, {
                                         ciudad: ciudad
                                     }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("article", {
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("aside", {
                                         className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_16___default().contenedorMapaVisible),
                                         ref: myRef,
                                         children: inView ? /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_componentes_MapaCiudades_MapaCiudades_js__WEBPACK_IMPORTED_MODULE_14__/* ["default"] */ .Z, {

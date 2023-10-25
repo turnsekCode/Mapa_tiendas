@@ -12,7 +12,13 @@ const SeccionTres = ({ ciudad, general }) => {
   } else {
     html = <Html ciudad={ciudad} />;
   }
-  return <section>{html}</section>;
+  /*return <article>{html}</article>;
+  return <section>
+
+
+
+  </section>;*/
+  
 };
 
 export default SeccionTres;

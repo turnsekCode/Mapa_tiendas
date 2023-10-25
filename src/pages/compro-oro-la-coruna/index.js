@@ -105,7 +105,7 @@ export default function LaCoruna({ markers, menu_list, ciudad, general }) {
             content="Calle Médico Rodriguez, 18-20 bajo, local 6. La Coruña, Provincia de La Coruña, 15004"
           />
         </div>
-        <div className={styles.main}>
+        <article className={styles.main}>
           <BreadcrumbsTiendas
             raiz="Quickgold"
             tiendas="Tiendas"
@@ -130,12 +130,12 @@ export default function LaCoruna({ markers, menu_list, ciudad, general }) {
           ) : null}
           <div className={styles.contenedorSeccionUnoDos}>
             <SeccionDos ciudad={ciudad} />
-            <article className={styles.contenedorMapaVisible} ref={myRef}>
+            <aside className={styles.contenedorMapaVisible} ref={myRef}>
               {inView ? <Mapa markers={markers} ciudad={ciudad} /> : null}
-            </article>
+            </aside>
             {/*<Mapa markers={markers} />*/}
           </div>
-        </div>
+        </article>
 
         {ciudad?.acf?.tienda === "" ? (
           <BotonLamarFijo ciudad={ciudad} />

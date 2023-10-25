@@ -13,7 +13,8 @@ module.exports = {
 	"contenedorTituloServicio": "accordion_contenedorTituloServicio__w0igv",
 	"accordionActivo": "accordion_accordionActivo__cFRWZ",
 	"details": "accordion_details__I_w_T",
-	"rayaAdorno": "accordion_rayaAdorno__XWIyl"
+	"rayaAdorno": "accordion_rayaAdorno__XWIyl",
+	"textoMenos": "accordion_textoMenos__zJUK8"
 };
 
 
@@ -677,7 +678,7 @@ function NuevoConversor2({ ciudad , setSelectDivisa , selectDivisa  }) {
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: select ? `${(estilosConversor_module_default()).select_monedas} ${(estilosConversor_module_default()).select_activo}` : `${(estilosConversor_module_default()).select_monedas}`,
-                                children: currencyOptions?.filter((currency)=>currency.Name !== "HRK" && currency.Name !== "DKK" && currency.Name !== "RUB" && currency.Name !== "NOK" && currency.Name !== "SEK").map((data, i)=>select ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: currencyOptions?.filter((currency)=>currency.Name !== "HRK" && currency.Name !== "DKK" && currency.Name !== "RUB" && currency.Name !== "NOK" && currency.Name !== "ILS" && currency.Name !== "SEK").map((data, i)=>select ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         className: (estilosConversor_module_default()).contenedor_list,
                                         "data-acronimo": data?.Productos[0].Acronimo,
                                         "data-nombre": data?.Productos[0].Nombre,
@@ -1010,7 +1011,7 @@ function Vender_NuevoConversor2({ ciudad , setSelectDivisa , selectDivisa  }) {
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                 className: select ? `${(estilosConversor_module_default()).select_monedas} ${(estilosConversor_module_default()).select_activo}` : `${(estilosConversor_module_default()).select_monedas}`,
-                                children: currencyOptions.filter((currency)=>currency.Name !== "HRK" && currency.Name !== "DKK" && currency.Name !== "RUB" && currency.Name !== "NOK" && currency.Name !== "SEK").map((data, i)=>select ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: currencyOptions.filter((currency)=>currency.Name !== "HRK" && currency.Name !== "DKK" && currency.Name !== "RUB" && currency.Name !== "NOK" && currency.Name !== "ILS" && currency.Name !== "SEK").map((data, i)=>select ? /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                                         className: (estilosConversor_module_default()).contenedor_list,
                                         "data-acronimo": data?.Productos[0].Acronimo,
                                         "data-nombre": data?.Productos[0].Nombre,
@@ -2097,214 +2098,266 @@ function AccordionServicios({ ciudad  }) {
     const handleChange = (panel)=>(event, newExpanded)=>{
             setExpanded(newExpanded ? panel : false);
         };
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("article", {
         className: (accordion_module_default()).contenedorAccordion,
         children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Accordion, {
-                style: {
-                    background: "#0F2D45",
-                    borderRadius: "8px",
-                    border: "none",
-                    padding: "10px 20px 0 20px"
-                },
-                className: (accordion_module_default()).contendorAccordion3,
-                expanded: expanded === "panel3",
-                onChange: handleChange("panel3"),
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(AccordionSummary, {
-                        style: {
-                            padding: "0",
-                            borderBottom: "2px solid #fff"
-                        },
-                        "aria-controls": "panel3d-content",
-                        id: "panel3d-header",
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: (accordion_module_default()).contenedorTituloServicio,
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                    className: expanded === "panel3" ? `${(accordion_module_default()).tituloServicio} ${(accordion_module_default()).accordionActivo}` : `${(accordion_module_default()).tituloServicio}`,
-                                    children: "Cambio de Divisas"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: (accordion_module_default()).subTituloServicio,
-                                    children: "Descubre el valor de la moneda que te interesa."
-                                })
-                            ]
+            /*#__PURE__*/ jsx_runtime_.jsx("section", {
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Accordion, {
+                    style: {
+                        background: "#0F2D45",
+                        borderRadius: "8px",
+                        border: "none",
+                        padding: "10px 20px 0 20px"
+                    },
+                    className: (accordion_module_default()).contendorAccordion3,
+                    expanded: expanded === "panel3",
+                    onChange: handleChange("panel3"),
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx(AccordionSummary, {
+                            style: {
+                                padding: "0",
+                                borderBottom: "2px solid #fff"
+                            },
+                            "aria-controls": "panel3d-content",
+                            id: "panel3d-header",
+                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: (accordion_module_default()).contenedorTituloServicio,
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                        className: expanded === "panel3" ? `${(accordion_module_default()).tituloServicio} ${(accordion_module_default()).accordionActivo}` : `${(accordion_module_default()).tituloServicio}`,
+                                        children: "Cambio de divisas"
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
+                                        className: (accordion_module_default()).subTituloServicio,
+                                        children: [
+                                            "Somos la ",
+                                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                                children: "casa de cambio"
+                                            }),
+                                            " preferida por miles de personas al a\xf1o en ",
+                                            ciudad?.acf?.ciudad_landing,
+                                            ". ",
+                                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                                children: "Cambiar divisa"
+                                            }),
+                                            " en Quickgold siempre es sin comisiones y, f\xe1cil y r\xe1pido."
+                                        ]
+                                    })
+                                ]
+                            })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx(AccordionDetails, {
+                            className: (accordion_module_default()).details,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(ConversorDivisa_ConversorDivisa, {
+                                ciudad: ciudad
+                            })
                         })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(AccordionDetails, {
-                        className: (accordion_module_default()).details,
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(ConversorDivisa_ConversorDivisa, {
-                            ciudad: ciudad
-                        })
-                    })
-                ]
+                    ]
+                })
             }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Accordion, {
-                style: {
-                    background: "#0F2D45",
-                    borderRadius: "8px",
-                    border: "none",
-                    padding: "10px 20px 0 20px"
-                },
-                className: (accordion_module_default()).contendorAccordion1,
-                expanded: expanded === "panel1",
-                onChange: handleChange("panel1"),
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(AccordionSummary, {
-                        style: {
-                            padding: "0",
-                            borderBottom: "2px solid #fff"
-                        },
-                        "aria-controls": "panel1d-content",
-                        id: "panel1d-header",
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: (accordion_module_default()).contenedorTituloServicio,
-                            children: [
-                                " ",
-                                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                    className: expanded === "panel1" ? `${(accordion_module_default()).tituloServicio} ${(accordion_module_default()).accordionActivo}` : `${(accordion_module_default()).tituloServicio}`,
-                                    children: "Precio del Oro"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: (accordion_module_default()).subTituloServicio,
-                                    children: "Conoce el precio del oro"
-                                })
-                            ]
+            /*#__PURE__*/ jsx_runtime_.jsx("section", {
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Accordion, {
+                    style: {
+                        background: "#0F2D45",
+                        borderRadius: "8px",
+                        border: "none",
+                        padding: "10px 20px 0 20px"
+                    },
+                    className: (accordion_module_default()).contendorAccordion1,
+                    expanded: expanded === "panel1",
+                    onChange: handleChange("panel1"),
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx(AccordionSummary, {
+                            style: {
+                                padding: "0",
+                                borderBottom: "2px solid #fff"
+                            },
+                            "aria-controls": "panel1d-content",
+                            id: "panel1d-header",
+                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: (accordion_module_default()).contenedorTituloServicio,
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                        className: expanded === "panel1" ? `${(accordion_module_default()).tituloServicio} ${(accordion_module_default()).accordionActivo}` : `${(accordion_module_default()).tituloServicio}`,
+                                        children: "Precio del oro"
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
+                                        className: (accordion_module_default()).subTituloServicio,
+                                        children: [
+                                            "Vender ",
+                                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                                children: "oro al mejor precio"
+                                            }),
+                                            " es f\xe1cil en nuestras tiendas ",
+                                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                                children: "Compro oro"
+                                            }),
+                                            " en ",
+                                            ciudad?.acf?.ciudad_landing,
+                                            ". M\xe1s de 15 a\xf1os en el sector siendo la empresa referente en las ciudades donde estamos."
+                                        ]
+                                    })
+                                ]
+                            })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx(AccordionDetails, {
+                            className: (accordion_module_default()).details,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(ConversorPlata_CalculadoraOro, {
+                                ciudad: ciudad
+                            })
                         })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(AccordionDetails, {
-                        className: (accordion_module_default()).details,
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(ConversorPlata_CalculadoraOro, {
-                            ciudad: ciudad
-                        })
-                    })
-                ]
+                    ]
+                })
             }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Accordion, {
-                style: {
-                    background: "#0F2D45",
-                    borderRadius: "8px",
-                    border: "none",
-                    padding: "10px 20px 0 20px"
-                },
-                className: (accordion_module_default()).contendorAccordion2,
-                expanded: expanded === "panel2",
-                onChange: handleChange("panel2"),
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(AccordionSummary, {
-                        style: {
-                            padding: "0",
-                            borderBottom: "2px solid #fff"
-                        },
-                        "aria-controls": "panel2d-content",
-                        id: "panel2d-header",
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: (accordion_module_default()).contenedorTituloServicio,
-                            children: [
-                                " ",
-                                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                    className: expanded === "panel2" ? `${(accordion_module_default()).tituloServicio} ${(accordion_module_default()).accordionActivo}` : `${(accordion_module_default()).tituloServicio}`,
-                                    children: "Precio de la Plata"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: (accordion_module_default()).subTituloServicio,
-                                    children: "\xbfCu\xe1nto cuesta ahora la plata?"
-                                })
-                            ]
+            /*#__PURE__*/ jsx_runtime_.jsx("section", {
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Accordion, {
+                    style: {
+                        background: "#0F2D45",
+                        borderRadius: "8px",
+                        border: "none",
+                        padding: "10px 20px 0 20px"
+                    },
+                    className: (accordion_module_default()).contendorAccordion2,
+                    expanded: expanded === "panel2",
+                    onChange: handleChange("panel2"),
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx(AccordionSummary, {
+                            style: {
+                                padding: "0",
+                                borderBottom: "2px solid #fff"
+                            },
+                            "aria-controls": "panel2d-content",
+                            id: "panel2d-header",
+                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: (accordion_module_default()).contenedorTituloServicio,
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                        className: expanded === "panel2" ? `${(accordion_module_default()).tituloServicio} ${(accordion_module_default()).accordionActivo}` : `${(accordion_module_default()).tituloServicio}`,
+                                        children: "Precio de la plata"
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
+                                        className: (accordion_module_default()).subTituloServicio,
+                                        children: [
+                                            "Compramos ",
+                                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                                children: "plata al mejor precio"
+                                            }),
+                                            ": joyas, cuberter\xedas, etc. Somos los l\xedderes en la ",
+                                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                                children: "compra de joyas"
+                                            }),
+                                            " en ",
+                                            ciudad?.acf?.ciudad_landing,
+                                            "."
+                                        ]
+                                    })
+                                ]
+                            })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx(AccordionDetails, {
+                            className: (accordion_module_default()).details,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(BloquePrecioPlata, {
+                                ciudad: ciudad
+                            })
                         })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(AccordionDetails, {
-                        className: (accordion_module_default()).details,
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(BloquePrecioPlata, {
-                            ciudad: ciudad
-                        })
-                    })
-                ]
+                    ]
+                })
             }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Accordion, {
-                style: {
-                    background: "#0F2D45",
-                    borderRadius: "8px",
-                    border: "none",
-                    padding: "10px 20px 0 20px"
-                },
-                className: (accordion_module_default()).contendorAccordion4,
-                expanded: expanded === "panel4",
-                onChange: handleChange("panel4"),
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(AccordionSummary, {
-                        style: {
-                            padding: "0",
-                            borderBottom: "2px solid #fff"
-                        },
-                        "aria-controls": "panel4d-content",
-                        id: "panel4d-header",
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: (accordion_module_default()).contenedorTituloServicio,
-                            children: [
-                                " ",
-                                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                    className: expanded === "panel4" ? `${(accordion_module_default()).tituloServicio} ${(accordion_module_default()).accordionActivo}` : `${(accordion_module_default()).tituloServicio}`,
-                                    children: "Empe\xf1o de Joyas"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: (accordion_module_default()).subTituloServicio,
-                                    children: "Calcula cu\xe1nto puedes obtener por tu joya."
-                                })
-                            ]
+            /*#__PURE__*/ jsx_runtime_.jsx("section", {
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Accordion, {
+                    style: {
+                        background: "#0F2D45",
+                        borderRadius: "8px",
+                        border: "none",
+                        padding: "10px 20px 0 20px"
+                    },
+                    className: (accordion_module_default()).contendorAccordion4,
+                    expanded: expanded === "panel4",
+                    onChange: handleChange("panel4"),
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx(AccordionSummary, {
+                            style: {
+                                padding: "0",
+                                borderBottom: "2px solid #fff"
+                            },
+                            "aria-controls": "panel4d-content",
+                            id: "panel4d-header",
+                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: (accordion_module_default()).contenedorTituloServicio,
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                        className: expanded === "panel4" ? `${(accordion_module_default()).tituloServicio} ${(accordion_module_default()).accordionActivo}` : `${(accordion_module_default()).tituloServicio}`,
+                                        children: "Empe\xf1o de joyas"
+                                    }),
+                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h2", {
+                                        className: (accordion_module_default()).subTituloServicio,
+                                        children: [
+                                            "Nuestros ",
+                                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                                                children: "empe\xf1os sin inter\xe9s el primer mes"
+                                            }),
+                                            " hacen que empe\xf1ar oro sea mucho m\xe1s c\xf3modo y f\xe1cil para nuestros clientes."
+                                        ]
+                                    })
+                                ]
+                            })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx(AccordionDetails, {
+                            className: (accordion_module_default()).details,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(Empenos, {
+                                ciudad: ciudad
+                            })
                         })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(AccordionDetails, {
-                        className: (accordion_module_default()).details,
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(Empenos, {
-                            ciudad: ciudad
-                        })
-                    })
-                ]
+                    ]
+                })
             }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Accordion, {
-                style: {
-                    background: "#0F2D45",
-                    borderRadius: "8px",
-                    border: "none",
-                    padding: "10px 20px 0 20px"
-                },
-                className: (accordion_module_default()).contendorAccordion5,
-                expanded: expanded === "panel5",
-                onChange: handleChange("panel5"),
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(AccordionSummary, {
-                        style: {
-                            padding: "0"
-                        },
-                        "aria-controls": "panel5d-content",
-                        id: "panel5d-header",
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: (accordion_module_default()).contenedorTituloServicio,
-                            children: [
-                                " ",
-                                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                    className: expanded === "panel5" ? `${(accordion_module_default()).tituloServicio} ${(accordion_module_default()).accordionActivo}` : `${(accordion_module_default()).tituloServicio}`,
-                                    children: "Invertir en Oro"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    className: (accordion_module_default()).subTituloServicio,
-                                    children: "Da el paso e invierte en el oro"
-                                })
-                            ]
+            /*#__PURE__*/ jsx_runtime_.jsx("section", {
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(Accordion, {
+                    style: {
+                        background: "#0F2D45",
+                        borderRadius: "8px",
+                        border: "none",
+                        padding: "10px 20px 0 20px"
+                    },
+                    className: (accordion_module_default()).contendorAccordion5,
+                    expanded: expanded === "panel5",
+                    onChange: handleChange("panel5"),
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx(AccordionSummary, {
+                            style: {
+                                padding: "0"
+                            },
+                            "aria-controls": "panel5d-content",
+                            id: "panel5d-header",
+                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                className: (accordion_module_default()).contenedorTituloServicio,
+                                children: [
+                                    " ",
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                        className: expanded === "panel5" ? `${(accordion_module_default()).tituloServicio} ${(accordion_module_default()).accordionActivo}` : `${(accordion_module_default()).tituloServicio}`,
+                                        children: "Invertir en oro"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
+                                        className: (accordion_module_default()).subTituloServicio,
+                                        children: "Venta de lingotes de oro con las mejores condiciones. El oro, como valor refugio est\xe1 claramente por encima de otro tipo de inversiones."
+                                    })
+                                ]
+                            })
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx(AccordionDetails, {
+                            style: {
+                                border: "none"
+                            },
+                            className: (accordion_module_default()).details,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(InvertirEnOro_Tabla2Lingotes, {
+                                ciudad: ciudad
+                            })
                         })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(AccordionDetails, {
-                        style: {
-                            border: "none"
-                        },
-                        className: (accordion_module_default()).details,
-                        children: /*#__PURE__*/ jsx_runtime_.jsx(InvertirEnOro_Tabla2Lingotes, {
-                            ciudad: ciudad
-                        })
-                    })
-                ]
+                    ]
+                })
             })
         ]
     });
@@ -2572,7 +2625,7 @@ const Breadcrumbs = ({ raiz , tiendas , nombreCiudad , nombreTienda , ubicacionA
 
 
 const Html = ({ ciudad  })=>{
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
         className: (_html_module_css__WEBPACK_IMPORTED_MODULE_2___default().contenedorHtml),
         dangerouslySetInnerHTML: {
             __html: ciudad?.acf?.html

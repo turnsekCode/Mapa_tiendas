@@ -121,7 +121,7 @@ export default function Barcelona({ markers, menu_list, ciudad, general }) {
             content="Calle Mossen Josep Pons, 1 Baixos 2. Sant Adriá, Provincia de Barcelona, 08930"
           />
         </div>
-        <div className={styles.main}>
+        <article className={styles.main}>
           <BreadcrumbsTiendas
             raiz="Quickgold"
             tiendas="Tiendas"
@@ -146,12 +146,12 @@ export default function Barcelona({ markers, menu_list, ciudad, general }) {
           ) : null}
           <div className={styles.contenedorSeccionUnoDos}>
             <SeccionDos ciudad={ciudad} />
-            <article className={styles.contenedorMapaVisible} ref={myRef}>
+            <aside className={styles.contenedorMapaVisible} ref={myRef}>
               {inView ? <Mapa markers={markers} ciudad={ciudad} /> : null}
-            </article>
+            </aside>
             {/*<Mapa markers={markers} />*/}
           </div>
-        </div>
+        </article>
 
         {ciudad?.acf?.tienda === "" ? (
           <BotonLamarFijo ciudad={ciudad} />

@@ -3,10 +3,10 @@ import styles from "./html.module.css";
 
 const Html = ({ ciudad }) => {
   return (
-    <section
+    <div
       className={styles.contenedorHtml}
       dangerouslySetInnerHTML={{ __html: ciudad?.acf?.html }}
-    ></section>
+    ></div>
   );
 };
 

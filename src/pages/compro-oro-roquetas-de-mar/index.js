@@ -105,7 +105,7 @@ export default function RoquetasDeMar({ markers, menu_list, ciudad, general }) {
             content="Carretera de Alicún, 22. Roquetas de Mar, Provincia de Roquetas de Mar, 04740"
           />
         </div>
-        <div className={styles.main}>
+        <article className={styles.main}>
           <BreadcrumbsTiendas
             raiz="Quickgold"
             tiendas="Tiendas"
@@ -130,12 +130,12 @@ export default function RoquetasDeMar({ markers, menu_list, ciudad, general }) {
           ) : null}
           <div className={styles.contenedorSeccionUnoDos}>
             <SeccionDos ciudad={ciudad} />
-            <article className={styles.contenedorMapaVisible} ref={myRef}>
+            <aside className={styles.contenedorMapaVisible} ref={myRef}>
               {inView ? <Mapa markers={markers} ciudad={ciudad} /> : null}
-            </article>
+            </aside>
             {/*<Mapa markers={markers} />*/}
           </div>
-        </div>
+        </article>
 
         {ciudad?.acf?.tienda === "" ? (
           <BotonLamarFijo ciudad={ciudad} />

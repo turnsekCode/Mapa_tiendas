@@ -133,7 +133,7 @@ export default function Cartagena({
       </Head>
       <Script id="livechat">{ciudad?.acf?.script_chat}</Script>
       <Layout menu_list={menu_list} ciudad={ciudad}>
-        <div className={styles.main}>
+        <article className={styles.main}>
           <BreadcrumbsTiendas
             raiz="Quickgold"
             tiendas="Tiendas"
@@ -163,7 +163,7 @@ export default function Cartagena({
             <SeccionDos ciudad={ciudad} />
             <SeccionTres ciudad={ciudad} tiendaGoogle={tiendaGoogle} />
           </div>
-        </div>
+        </article>
 
         {ciudad?.acf?.tienda === "" ? (
           <BotonLamarFijo ciudad={ciudad} />
